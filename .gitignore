@@ -1,0 +1,44 @@
+# Local documentation (not committed)
+docs/
+artificial-trading-agent/
+arika-trader-ai/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Artifacts / experiments
+artifacts/
+mlruns/
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
